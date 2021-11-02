@@ -9,3 +9,6 @@ We have been provided with 133 images belonging to 4 classes:
     <li>Viral Pneumonia</li>
 </ul>
 We will try <em>Convolutional Neural Network</em> models and, specifically, we'll be using <em>ResNet</em> a pretrained model including <em>skip connection</em> features, which are probably the best way to bypass the <em>vanishing gradient problem</em>, an issue affecting recurrent neural networks training, only partially solved by LSTMs.
+
+The dataset we are using is a custome dataset, mixing Kaggle ones. Take a look at:
+https://github.com/ieee8023/covid-chestxray-dataset
